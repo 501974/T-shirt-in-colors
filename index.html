@@ -22,6 +22,14 @@
             margin: 0;
             font-size: 2em;
         }
+        .links {
+            margin: 10px 0;
+        }
+        .links a {
+            color: #0074D9;
+            text-decoration: underline;
+            margin: 0 10px;
+        }
         .gallery {
             display: flex;
             flex-direction: column;
@@ -38,10 +46,12 @@
             background-color: #001f3f;
             color: #fff;
             text-align: center;
-            padding: 10px;
-            position: fixed;
-            width: 100%;
-            bottom: 0;
+            padding: 20px;
+            margin-top: 30px;
+        }
+        footer a {
+            color: #fff;
+            text-decoration: underline;
         }
     </style>
 </head>
@@ -49,15 +59,21 @@
     <header>
         <h1>Pamela Noa - T-shirt Personalizzate</h1>
         <p>Arte su tessuto dipinta a mano</p>
+        <div class="links">
+            <a href="https://www.instagram.com" target="_blank">Instagram</a>
+            <a href="mailto:pamelavacca4@gmail.com">Email</a>
+        </div>
     </header>
 
     <div class="gallery">
         <img src="tshirt1.jpg" alt="T-shirt personalizzata 1">
         <img src="tshirt2.jpg" alt="T-shirt personalizzata 2">
+        <img src="tshirt3.jpg" alt="T-shirt personalizzata 3">
     </div>
 
     <footer>
-        Contattami per la tua maglietta personalizzata!
+        Contattami per la tua maglietta personalizzata!<br>
+        <a href="mailto:pamelavacca4@gmail.com">Scrivimi</a>
     </footer>
 </body>
 </html>
